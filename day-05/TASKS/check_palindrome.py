@@ -3,6 +3,8 @@
 
 
 
+print("PALINDROME CHECKER FOR ALF")
+word = input("Please, enter a word/s to check: ")
 
 
 
@@ -12,6 +14,7 @@
 
 
 
+reversed_word = word[::-1]
 
 
 
@@ -19,6 +22,10 @@
 # Select and employ a string concatenation method based on your personal preference and comfort level.
 
 
+if reversed_word == word:
+    print("'%s' is a palindrome" %(word))
+else:
+    print("'%s' is not a palindrome" %(word))
 
 
 
