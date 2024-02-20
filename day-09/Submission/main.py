@@ -4,7 +4,7 @@ file = open('story.txt','r')
 lines = file.readlines()
 numberOfLines = len(lines)
 
-print("The number of lines in this file is: %d" %(numberOfLines))
+print("This file has %d lines" %(numberOfLines))
 
 
 file.close()
